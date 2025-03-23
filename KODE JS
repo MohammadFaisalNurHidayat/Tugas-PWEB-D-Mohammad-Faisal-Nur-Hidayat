@@ -1,1 +1,19 @@
+document.addEventListener("DOMContentLoaded", function() {
+    let btn = document.getElementById("btnClick");
+    let image = document.getElementById("mainImage");
+    let text = document.querySelector(".content p"); 
+
+    let isOriginal = true;
+
+    btn.addEventListener("click", function() {
+        if (isOriginal) {
+            image.src = "https://tse1.mm.bing.net/th?id=OIP.d8DBrv8lzPJl0WDWjixJ0gAAAA&pid=Api&P=0&h=220";
+            text.innerText = "LU SESUDAH BEFORE TEKAN TOMBOL.";
+        } else {
+            image.src = "https://tse1.mm.bing.net/th?id=OIP.bVaW1ay7PqB_GyV1bhO8yQAAAA&pid=Api&P=0&h=220";
+            text.innerText = "LU SEBELUM BEFORE TEKAN TOMBOL.";
+        }
+        isOriginal = !isOriginal; 
+    });
+});
 
