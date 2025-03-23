@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA,TESLA,SPACE X,NASI PADANG</title>
+    <link rel="stylesheet" href="KODE CSS.css">
+</head>
+<body>
+
+    <header>
+        <h1>COBA TEKAN TOMBOL ITU</h1>
+    </header>
+
+    <section class="content">
+        <p>LU SEBELUM TEKAN TOMBOL.</p>
+
+        <!-- Image that will change -->
+        <img id="mainImage" src="https://tse1.mm.bing.net/th?id=OIP.bVaW1ay7PqB_GyV1bhO8yQAAAA&pid=Api&P=0&h=220" alt="Sample Image">
+
+        <button id="btnClick">KLIK YGY</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Simple Website</p>
+    </footer>
+
+    <script src="KODE JAVA.js"></script>
+</body>
+</html>
 
